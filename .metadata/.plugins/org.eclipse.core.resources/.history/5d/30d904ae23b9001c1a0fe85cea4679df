@@ -125,14 +125,18 @@ public class SpeechRecognizerMain {
 			});
 	}
 	
-	// Stops ignoring the results of SpeechRecognition
+	/**
+	 * Stops ignoring the results of SpeechRecognition
+	 */
 	public synchronized void stopIgnoreSpeechRecognitionResults() {
 		
 		//Stop ignoring speech recognition results
 		ignoreSpeechRecognitionResults = false;
 	}
 	
-	// Ignores the results of SpeechRecognition
+	/**
+	 * Ignores the results of SpeechRecognition
+	 */
 	public synchronized void ignoreSpeechRecognitionResults() {
 		
 		//Instead of stopping the speech recognition we are ignoring it's results
@@ -142,7 +146,9 @@ public class SpeechRecognizerMain {
 	
 	//-----------------------------------------------------------------------------------------------
 	
-	// Starting a Thread that checks if the resources needed to the SpeechRecognition library are available
+	/**
+	 * Starting a Thread that checks if the resources needed to the SpeechRecognition library are available
+	 */
 	public void startResourcesThread() {
 		
 		//Check lock
@@ -174,6 +180,11 @@ public class SpeechRecognizerMain {
 			});
 	}
 	
+	/**
+	 * Takes a decision based on the given result
+	 * 
+	 * @param speechWords
+	 */
 	public void makeDecision(String speech , List<WordResult> speechWords) {
 		
 		System.out.println(speech);
@@ -188,6 +199,11 @@ public class SpeechRecognizerMain {
 		return speechRecognizerThreadRunning;
 	}
 	
+	/**
+	 * Main Method
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		new SpeechRecognizerMain();
 	}
