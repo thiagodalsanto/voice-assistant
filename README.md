@@ -1,4 +1,4 @@
-![logo_voice-assistant](https://i.postimg.cc/8c41XW3X/Teste-1500-px-500-px.png)
+#voice-assistant
 
 ## Descrição do Projeto
 <p align="justify">
