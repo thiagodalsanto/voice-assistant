@@ -9,7 +9,7 @@ grammar grammar;
 public <questions>  = ( how are you | say hello);
 public <voices>  = ( change to voice one  | change to voice two | change to voice three );
 public <phrases>  = ( say amazing | what day is today );
-public <phrasesTwo>  = (who is your daddy | obey to me beach | hey boss);
+public <nervous>  = (who is your daddy | obey to me beach | hey boss);
 public <number> = ( zero | one | two | three | four | five | six | seven | nine | ten
                    | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen | twenty 
                    | thirty | forty | fifty | sixty | seventy | eighty | ninety |
