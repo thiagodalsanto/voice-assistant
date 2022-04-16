@@ -2,7 +2,7 @@
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_v84kIbkhEeymnZmGb_G4cg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_v84kIrkhEeymnZmGb_G4cg" bindingContexts="_v84kK7khEeymnZmGb_G4cg">
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SpeechRecognizerMain.java&quot; tooltip=&quot;source-code/src/model/SpeechRecognizerMain.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/source-code/src/model/SpeechRecognizerMain.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;grammar.gram&quot; tooltip=&quot;source-code/resources/grammars/grammar.gram&quot;>&#xD;&#xA;&lt;persistable path=&quot;/source-code/resources/grammars/grammar.gram&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_v84kIrkhEeymnZmGb_G4cg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_wPRUorkhEeymnZmGb_G4cg" label="%trimmedwindow.label.eclipseSDK" x="64" y="64" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_v84kIrkhEeymnZmGb_G4cg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_wPRUorkhEeymnZmGb_G4cg" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -99,7 +99,7 @@
               </children>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_wc5g-bkhEeymnZmGb_G4cg" containerData="7500" selectedElement="_wc5g-rkhEeymnZmGb_G4cg">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_wc5g-rkhEeymnZmGb_G4cg" containerData="5855" selectedElement="_wc5g-7khEeymnZmGb_G4cg" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_wc5g-rkhEeymnZmGb_G4cg" containerData="6656" selectedElement="_wc5g-7khEeymnZmGb_G4cg" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_wc5g-7khEeymnZmGb_G4cg" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_wcIr8LkhEeymnZmGb_G4cg"/>
                 <children xsi:type="basic:PartStack" xmi:id="_wc5g_LkhEeymnZmGb_G4cg" elementId="right" visible="false" containerData="2500" selectedElement="_wc5g_bkhEeymnZmGb_G4cg">
                   <tags>org.eclipse.e4.secondaryNavigationStack</tags>
@@ -122,7 +122,7 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_wc5hAbkhEeymnZmGb_G4cg" elementId="bottom" containerData="4145" selectedElement="_wc5hBrkhEeymnZmGb_G4cg">
+              <children xsi:type="basic:PartStack" xmi:id="_wc5hAbkhEeymnZmGb_G4cg" elementId="bottom" containerData="3344" selectedElement="_wc5hBrkhEeymnZmGb_G4cg">
                 <tags>org.eclipse.e4.secondaryDataStack</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_wc5hArkhEeymnZmGb_G4cg" elementId="org.eclipse.ui.views.ProblemView" ref="_wcregLkhEeymnZmGb_G4cg" closeable="true">
                   <tags>View</tags>
@@ -201,23 +201,23 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_wcIr8LkhEeymnZmGb_G4cg" elementId="org.eclipse.ui.editorss" selectedElement="_wcIr8bkhEeymnZmGb_G4cg">
-      <children xsi:type="basic:PartStack" xmi:id="_wcIr8bkhEeymnZmGb_G4cg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_910EYLmFEeybxdNt5vOfog">
+      <children xsi:type="basic:PartStack" xmi:id="_wcIr8bkhEeymnZmGb_G4cg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_Fic1wLnPEeycmOQdTM1bqQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_-E9ToLmFEeybxdNt5vOfog" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SpeechRecognizerMain.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SpeechRecognizerMain.java&quot; partName=&quot;SpeechRecognizerMain.java&quot; title=&quot;SpeechRecognizerMain.java&quot; tooltip=&quot;source-code/src/model/SpeechRecognizerMain.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/source-code/src/model/SpeechRecognizerMain.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_Fic1wLnPEeycmOQdTM1bqQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SpeechRecognizerMain.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SpeechRecognizerMain.java&quot; partName=&quot;SpeechRecognizerMain.java&quot; title=&quot;SpeechRecognizerMain.java&quot; tooltip=&quot;source-code/src/model/SpeechRecognizerMain.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/source-code/src/model/SpeechRecognizerMain.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;471&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_910EYLmFEeybxdNt5vOfog" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="grammar.gram" iconURI="platform:/plugin/org.eclipse.ui.editors/icons/full/obj16/file_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;grammar.gram&quot; partName=&quot;grammar.gram&quot; title=&quot;grammar.gram&quot; tooltip=&quot;source-code/resources/grammars/grammar.gram&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/source-code/resources/grammars/grammar.gram&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;120&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_FGggoLnPEeycmOQdTM1bqQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="grammar.gram" iconURI="platform:/plugin/org.eclipse.ui.editors/icons/full/obj16/file_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;grammar.gram&quot; partName=&quot;grammar.gram&quot; title=&quot;grammar.gram&quot; tooltip=&quot;source-code/resources/grammars/grammar.gram&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/source-code/resources/grammars/grammar.gram&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.ui.DefaultTextEditor</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -354,7 +354,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_wQ99wLkhEeymnZmGb_G4cg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_8E12ALmFEeybxdNt5vOfog" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_v9m847khEeymnZmGb_G4cg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_jxOzoLnyEey0GNiwJDSpzg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_v9m847khEeymnZmGb_G4cg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_wQ99wbkhEeymnZmGb_G4cg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -385,7 +385,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_wQ-k1LkhEeymnZmGb_G4cg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_8E9KwLmFEeybxdNt5vOfog" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_v9lHsrkhEeymnZmGb_G4cg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_jxXWgLnyEey0GNiwJDSpzg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_v9lHsrkhEeymnZmGb_G4cg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_wQ_L4LkhEeymnZmGb_G4cg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
