@@ -1,6 +1,5 @@
 INDEX VERSION 1.131+C:\Users\thiag\OneDrive\Documentos\Meus Arquivos\Programação\Code\voice-assistant\.metadata\.plugins\org.eclipse.jdt.core
-2639793431.index
-3609202449.index
 3702416954.index
 1865797976.index
 4182086058.index
+1147713036.index
