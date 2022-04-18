@@ -15,6 +15,7 @@ public class VoiceAssistant {
 		config.setAcousticModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us");
 		config.setDictionaryPath("src\\main\\resources\\5057.dic");
 		config.setLanguageModelPath("src\\main\\resources\\5057.lm");
+		String artur = "000o";
 		
 		try {
 			LiveSpeechRecognizer speech = new LiveSpeechRecognizer(config);
