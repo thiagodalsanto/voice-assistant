@@ -2,29 +2,17 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import Icon from 'react-native-vector-icons/Ionicons';
 
-import Home from '../pages/home';
-import Configuration from '../pages/configuration';
-import AppsForm from '../pages/appsForm';
+import Home from '../pages/Home/index';
+import Configuration from '../pages/Configuration/index';
+import ButtonCreation from '../pages/ButtonCreation/index';
+
+import styles from './styles';
 
 const Tab = createBottomTabNavigator();
 
 const CustomTabBarButton = ( { children, onPress } ) => (
-    <TouchableOpacity 
-        style={{
-            top: -30,
-            justifyContent: 'center',
-            alignItems: 'center',
-            ...estilo.shadow
-        }}
-        onPress={onPress}
-    >
-        <View style={{
-            width: 70,
-            height: 70,
-            borderRadius: 35,
-            backgroundColor: '#174166',
-        }}
-        >
+    <TouchableOpacity style={styles.customTabBarStyle} onPress={onPress} >
+        <View style={styles.customTabBarView} >
             { children }
         </View>
     </TouchableOpacity>
@@ -45,29 +33,21 @@ const Tabs = ( ) => {
                     backgroundColor: '#2A70AD',
                     borderRadius: 15,
                     height: 60,
-                    ...estilo.shadow
+                    ...styles.shadow
                 }
             }}
         >
-
+            
             <Tab.Screen name="Home" component={Home} 
             options={{
                 tabBarIcon: ({focused}) => (
-                    <View style={{
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                    }}>
-                        <Icon name="home" size={24} style={{ color: focused ? "#000" : "#FFF",
-                        }}/>
-                        <Text style={{
-                            color: focused ? "#000" : "#FFF",
-                            fontSize: 14,
-                        }}>Home</Text>
+                    <View style={styles.center} >
+                        <Icon name="home" size={32} style={{ color: focused ? "#000" : "#FFF",}}/>
                     </View>
                 ),
             }} />
 
-            <Tab.Screen name="Add Comando" component={AppsForm} 
+            <Tab.Screen name="Add" component={ButtonCreation} 
             options={{
                 tabBarIcon: ({focused}) => (
                     <View>
@@ -84,16 +64,9 @@ const Tabs = ( ) => {
             <Tab.Screen name="Configuration" component={Configuration} 
             options={{
                 tabBarIcon: ({focused}) => (
-                    <View style={{
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                    }}>
-                        <Icon name="ios-cog" size={24} style={{ color: focused ? "#000" : "#FFF",
+                    <View style={styles.center} >
+                        <Icon name="ios-cog" size={32} style={{ color: focused ? "#000" : "#FFF",
                         }}/>
-                        <Text style={{
-                            color: focused ? "#000" : "#FFF",
-                            fontSize: 14,
-                        }}>Config</Text>
                     </View>
                 ),
             }}
@@ -101,18 +74,5 @@ const Tabs = ( ) => {
         </Tab.Navigator>
     );
 }
-
-const estilo = StyleSheet.create({
-    shadow: {
-        shadowColor: '#000',
-        shadowOffset: {
-            width: 0,
-            height: 10,
-        }, 
-        shadowOpacity: 0.25,
-        shadowRadius: 3.5,
-        elevation: 50,   
-    }
-}) 
 
 export default Tabs;
