@@ -1,5 +1,5 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { View, TouchableOpacity } from "react-native";
+import { View, TouchableOpacity, Button } from "react-native";
 import Icon from 'react-native-vector-icons/Ionicons';
 
 import Home from '../pages/Home/index';
@@ -24,13 +24,14 @@ const Tabs = ( ) => {
         <Tab.Navigator
             screenOptions={{ 
                 tabBarShowLabel: false,
-                headerShown: false,
+                title: 'Aligned Center',
+                headerTitleAlign: 'center',
                 tabBarStyle: {
                     position: 'absolute',
                     bottom: 25, left: 20, right: 20, elevation: 0,
                     backgroundColor: colors.lightBlue,
                     borderRadius: 15, height: 60,
-                    ...styles.shadow }
+                    ...styles.shadow },
             }}>
             
             <Tab.Screen name="Home" component={Home} 
@@ -42,6 +43,7 @@ const Tabs = ( ) => {
                             }}/>
                         </View>
                     ),
+                    headerTitle: "Home",
                 }} 
             />
 
@@ -56,7 +58,8 @@ const Tabs = ( ) => {
                     ),
                     tabBarButton: (props) => (
                         <CustomTabBarButton { ...props } />
-                    )
+                    ),
+                    headerTitle: "Add Command",
                 }} 
             />
 
@@ -69,6 +72,7 @@ const Tabs = ( ) => {
                             }}/>
                         </View>
                     ),
+                    headerTitle: "Configuration",
                 }}
             />
             

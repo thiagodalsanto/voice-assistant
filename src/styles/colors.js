@@ -5,6 +5,6 @@ export default {
     black: '#000',
     regularGrey: '#DDD',
     darkerGrey: '#BBB',
-    almostWhite: '#C00',
+    darkerRed: '#C00',
     darkerBlue: '#174166',
 };

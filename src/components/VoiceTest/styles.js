@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
         paddingBottom: 15,
     },
     recordButton: {
-        backgroundColor: colors.almostWhite,
+        backgroundColor: colors.darkerRed,
         width: 35,
         height: 35,
         justifyContent: "center",
