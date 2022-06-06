@@ -1,13 +1,59 @@
-import React, { Component } from 'react';
+import React, { useState, useContext } from 'react';
+import { View, Text, TextInput, StyleSheet, Button } from 'react-native';
+import CommandsContext from '../../context/CommandContext';
 
-import { View, Text } from 'react-native';
+export default ({route, navigation}) => {
+  const [commands, setCommands] = useState(route.params ? route.params: {})
+  const {dispatch} = useContext(CommandsContext)
 
-import CommandForm from '../../components/CommandForm';
-import styles from './styles';
+  return (
+    <View style={style.form}>
+      <Text>Command Name</Text>
+      <TextInput
+        style={style.input}
+        onChangeText={command => setCommands({...commands, command})}
+        placeholder="Informe o Nome do Comando"
+        value={commands.command}
+      />
 
-const ButtonCreation = ( { navigation } ) => (
-  <View>
-  </View>
-)
+    <Text>App Name</Text>
+    <TextInput
+      style={style.input}
+      onChangeText={name => setCommands({...commands, name})}
+      placeholder="Informe o Nome do App"
+      value={commands.name}
+    />
 
-export default ButtonCreation;
+    <Text>Avatar</Text>
+    <TextInput
+      style={style.input}
+      onChangeText={avatarUrl => setCommands({...commands, avatarUrl})}
+      placeholder="Informe o Url do Avatar"
+      value={commands.avatarUrl}
+    />
+
+      <Button
+        title="Salvar"
+        onPress={() => {
+          dispatch({
+            type: commands.id ? 'updateCommand' : 'createCommand',
+            payload: commands,
+          })
+          navigation.goBack()
+        }}
+      />
+    </View>
+  )
+}
+
+const style = StyleSheet.create({
+  input: {
+    height: 40,
+    borderColor: 'gray',
+    borderWidth: 1, 
+    marginBottom: 10,
+  },
+  form: {
+    padding: 12,
+  },
+})

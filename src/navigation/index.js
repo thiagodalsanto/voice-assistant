@@ -22,6 +22,7 @@ const CustomTabBarButton = ( { children, onPress } ) => (
 const Tabs = ( ) => {
     return(
         <Tab.Navigator
+            initialRouteName="Home"
             screenOptions={{ 
                 tabBarShowLabel: false,
                 title: 'Aligned Center',
@@ -32,7 +33,8 @@ const Tabs = ( ) => {
                     backgroundColor: colors.lightBlue,
                     borderRadius: 15, height: 60,
                     ...styles.shadow },
-            }}>
+            }}
+        >
             
             <Tab.Screen name="Home" component={Home} 
                 options={{

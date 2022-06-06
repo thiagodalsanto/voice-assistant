@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { View, ScrollView, Text } from 'react-native';
+import { View, Button } from 'react-native';
 
 import ThemePicker from '../../components/ThemePicker';
 import VoiceTest from '../../components/VoiceTest';
